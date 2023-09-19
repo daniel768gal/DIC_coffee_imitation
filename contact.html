@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header id="#top" class="sub_header">
+        <nav class="header_nav">
+            <a href="index.html" class="logo"><img src="images/sample_logo_k.png"></a>
+            <ul class="global_nav">
+                <li><a href="index.html" class="global_nav_item">Inicio</a></li>
+                <li><a href="menu.html" class="global_nav_item">Menu</a></li>
+                <li><a href="contact.html" class="global_nav_item">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section_inner">
+        <div class="section_title">
+            <h1>CONTACTO</h1>
+            <p>Contactanos</p>
+        </div>
+        <form action="#" method="POST">
+            <table class="contact">
+                <tr class="contact_line">
+                    <td class="contact_sign"><label for="name">Nombre</label></td>
+                    <td class="contact_input"><input type="text" id="name" name="name"></td>
+                </tr>
+                <tr class="contact_line">
+                    <td class="contact_sign"><label for="phonenumber">Datos de Contacto</label></td>
+                    <td class="contact_input"><input type="tel" name="phonenumber" id="phonenumber"></td>
+                </tr>
+                <tr class="contact_line">
+                    <td class="contact_sign"><label for="region">Region de Residencia</label></td>
+                    <td>
+                        <select id="region" name="region">
+                            <option value="" selected>Por favor, seleccione su region</option>
+                            <option value="1">Hokkaido</option>
+                            <option value="2">Tohoku</option>
+                            <option value="3">Kanto</option>
+                            <option value="4">Region Central</option>
+                            <option value="5">Kinki</option>
+                            <option value="6">Chugoku y Shikoku</option>
+                            <option value="7">Kyushu</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="contact_line">
+                    <td class="contact_sign"><label for="content">Contenido</label></td>
+                    <td class="contact_input"><textarea name="content" id="content"></textarea></td>
+                </tr>
+            </table>
+            <div class="contact_btn_area">
+                <button type="reset" class="contact_btn reset_btn">Reiniciar</button>
+                <button type="submit" class="contact_btn submit_btn">Enviar</button>
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+            <a href="index.html"><img src="images/sample_logo_w.png"></a>
+            <span>&copy; DIVIC Corp. All RIGHTS RESERVED.</span>
+        </nav>
+
+    </footer>
+</body>
+
+</html>
